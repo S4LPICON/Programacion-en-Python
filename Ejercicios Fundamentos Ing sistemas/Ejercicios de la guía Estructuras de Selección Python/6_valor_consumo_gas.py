@@ -19,6 +19,7 @@ def calcular_valor_consumo(a,b):
             rta = (m_c_g - 200) * 80 + (m_c_g - 70) * 50 -500
     return rta
     
+    
     """
     si funciona no se toca
     """
