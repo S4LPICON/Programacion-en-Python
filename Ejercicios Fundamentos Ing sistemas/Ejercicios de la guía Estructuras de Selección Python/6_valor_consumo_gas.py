@@ -22,4 +22,5 @@ def calcular_valor_consumo(a,b):
     
     """
     si funciona no se toca
+    el codigo sirve para el ejercicio asignado mas no para una aplicacion real
     """
