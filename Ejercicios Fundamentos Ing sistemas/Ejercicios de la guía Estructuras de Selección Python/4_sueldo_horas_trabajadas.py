@@ -4,9 +4,9 @@ Un empleado trabajar 40 horas semanales en una empresa y recibe un salario de 26
 ejemplo: sueldo_horas_trabajadas(50) retorna 344500.0
 """
 def sueldo_horas_trabajadas(horas_trabajadas):
-    salario_base = 260000  # Salario base para 40 horas
-    horas_normales = 40  # Número de horas normales
-    tarifa_hora_extra = 1.3  # Recargo del 30% por hora extra
+    salario_base = 260000 
+    horas_normales = 40 
+    tarifa_hora_extra = 1.3  
 
     if horas_trabajadas <= horas_normales:
         salario_total = salario_base

@@ -7,7 +7,10 @@ Y para consumos por encima de 200 metros cúbicos de gas consumidos se cobrará 
 Dada la lectura del contador al inicio de mes y al final del mes (dos números enteros el primero menor que el segundo), en metros cúbicos, calcule el valor de la factura.
 
 Ejemplo calcular_valor_consumo( 1150, 1180) retorna 2000
-"""
+ 
+    si funciona no se toca
+    el codigo sirve para el ejercicio asignado mas no para una aplicacion real
+ """
 def calcular_valor_consumo(a,b):
     m_c_g = b -a
     if m_c_g < 70:
@@ -18,9 +21,3 @@ def calcular_valor_consumo(a,b):
         else:
             rta = (m_c_g - 200) * 80 + (m_c_g - 70) * 50 -500
     return rta
-    
-    
-    """
-    si funciona no se toca
-    el codigo sirve para el ejercicio asignado mas no para una aplicacion real
-    """

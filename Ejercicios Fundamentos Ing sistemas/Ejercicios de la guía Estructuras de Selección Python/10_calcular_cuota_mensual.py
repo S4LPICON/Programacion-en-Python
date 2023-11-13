@@ -33,4 +33,4 @@ def calcular_num_cuotas(x):
         s = f * 0.07
         num_cu = f // s
     return num_cu
-    return cuota
+print(calcular_num_cuotas(500001))
