@@ -16,9 +16,9 @@ def potencia(x,y):
             rta = rta * x
             i = i+1
     elif y < 0:
-        1/x-y
+        rta = 1/(x**(-y))
     else: 
         rta = "no definido"
     return rta
 
-print(potencia(16,5))
+print(potencia(-5,-2))
