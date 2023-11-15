@@ -25,5 +25,18 @@ donde x viene siendo la cantidad de kilómetros que debe recorrer el primer día
 el numero de días del entrenamiento según condiciones descritas, por lo que debe retornar la cantidad de kilometros acumulados en dicho entrenamiento.
 """
 
-def calcular_kilometros_acumulados(x,d):
-    
+def calcular_kilometros_acumulados(kmi,nd):
+    acomulado = kmi
+    ayer = kmi
+    dia = 2
+    while (dia <=nd):
+        if (dia % 3 ==0):
+            hoy = ayer/2
+        else:
+            hoy = ayer*2+10
+            acomulado = acomulado + hoy
+            ayer = hoy
+            dia = dia + 1
+    return acomulado
+
+print((calcular_kilometros_acumulados(20,12)))
